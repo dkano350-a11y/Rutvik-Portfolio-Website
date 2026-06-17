@@ -1,0 +1,9 @@
+
+> react-example@0.0.0 lint
+> tsc --noEmit
+
+src/components/About.tsx(43,25): error TS2304: Cannot find name 'idx'.
+src/components/About.tsx(43,37): error TS2304: Cannot find name 'index'.
+src/components/Chatbot.tsx(333,27): error TS17000: JSX attributes must only be assigned a non-empty 'expression'.
+src/components/Footer.tsx(26,19): error TS17000: JSX attributes must only be assigned a non-empty 'expression'.
+src/components/ResumeModal.tsx(47,25): error TS17000: JSX attributes must only be assigned a non-empty 'expression'.

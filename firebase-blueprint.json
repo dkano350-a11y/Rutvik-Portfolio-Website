@@ -1,0 +1,118 @@
+{
+  "entities": {
+    "ProjectImage": {
+      "title": "Project Image",
+      "description": "Custom uploaded project images",
+      "type": "object",
+      "properties": {
+        "projectId": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["projectId", "imageUrl"]
+    },
+    "VisitorCounter": {
+      "title": "Visitor Counter",
+      "description": "Total unique visit counter tracking",
+      "type": "object",
+      "properties": {
+        "count": { "type": "integer" }
+      },
+      "required": ["count"]
+    },
+    "Profile": {
+      "title": "Profile Data",
+      "description": "Mutable executive portrait, name, bio, and dynamic title",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "title": { "type": "string" },
+        "bio": { "type": "string" },
+        "photoUrl": { "type": "string" }
+      },
+      "required": ["name", "title", "bio", "photoUrl"]
+    },
+    "NewsletterSubscriber": {
+      "title": "Newsletter Subscriber",
+      "description": "Newsletter email subscription list details",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string", "format": "email" },
+        "subscribedAt": { "type": "string" }
+      },
+      "required": ["email", "subscribedAt"]
+    },
+    "MailboxRecord": {
+      "title": "Mailbox Record",
+      "description": "Logs of SMTP transaction activities",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "subject": { "type": "string" },
+        "to": { "type": "string" },
+        "status": { "type": "string" },
+        "info": { "type": "string" },
+        "error": { "type": "string" }
+      },
+      "required": ["id", "timestamp", "subject", "to", "status"]
+    },
+    "EmailLog": {
+      "title": "Email Status Tracker",
+      "description": "Monitoring log with latency metrics to track outbound emails",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "subject": { "type": "string" },
+        "to": { "type": "string" },
+        "status": { "type": "string" },
+        "latencyMs": { "type": "integer" },
+        "error": { "type": "string" },
+        "info": { "type": "string" }
+      },
+      "required": ["id", "timestamp", "subject", "to", "status"]
+    },
+    "UserSettings": {
+      "title": "User Settings",
+      "description": "Synced settings preference including theme",
+      "type": "object",
+      "properties": {
+        "visitorId": { "type": "string" },
+        "theme": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["visitorId", "theme", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/user_settings/{visitorId}": {
+      "schema": "UserSettings",
+      "description": "Synchronized theme and preferences per visitor"
+    },
+    "/project_images/{projectId}": {
+      "schema": "ProjectImage",
+      "description": "Persistent custom images uploaded for MileCharge and ANANTA"
+    },
+    "/stats/{id}": {
+      "schema": "VisitorCounter",
+      "description": "Global statistics and unique visitor counter metrics"
+    },
+    "/settings/{id}": {
+      "schema": "Profile",
+      "description": "Owner dynamic biography settings"
+    },
+    "/newsletter/{id}": {
+      "schema": "NewsletterSubscriber",
+      "description": "Subscribed newsletter emails collection"
+    },
+    "/mailbox_records/{id}": {
+      "schema": "MailboxRecord",
+      "description": "SMTP history records"
+    },
+    "/email_logs/{id}": {
+      "schema": "EmailLog",
+      "description": "Outbound latency and status email logs"
+    }
+  }
+}

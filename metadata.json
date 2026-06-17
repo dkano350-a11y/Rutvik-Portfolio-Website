@@ -1,0 +1,6 @@
+{
+  "name": "Rutvik Dangar Portfolio",
+  "description": "Rutvik's premium marketing, AI, and no-code personal portfolio website.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

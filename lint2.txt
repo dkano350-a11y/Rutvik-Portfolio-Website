@@ -1,0 +1,207 @@
+
+> react-example@0.0.0 lint
+> tsc --noEmit
+
+src/components/Academics.tsx(14,36): error TS1005: ',' expected.
+src/components/Academics.tsx(14,63): error TS1109: Expression expected.
+src/components/Academics.tsx(14,64): error TS1109: Expression expected.
+src/components/Academics.tsx(22,36): error TS1005: ',' expected.
+src/components/Academics.tsx(22,65): error TS1109: Expression expected.
+src/components/Academics.tsx(22,66): error TS1109: Expression expected.
+src/components/Academics.tsx(30,40): error TS1005: ',' expected.
+src/components/Academics.tsx(30,70): error TS1109: Expression expected.
+src/components/Academics.tsx(30,71): error TS1109: Expression expected.
+src/components/Academics.tsx(50,34): error TS1005: ',' expected.
+src/components/Academics.tsx(50,63): error TS1109: Expression expected.
+src/components/Academics.tsx(50,64): error TS1109: Expression expected.
+src/components/Academics.tsx(70,13): error TS1003: Identifier expected.
+src/components/Academics.tsx(70,30): error TS1005: '}' expected.
+src/components/Academics.tsx(70,64): error TS1005: '}' expected.
+src/components/Academics.tsx(70,70): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/Academics.tsx(70,177): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Academics.tsx(72,25): error TS1003: Identifier expected.
+src/components/Academics.tsx(72,31): error TS1005: ')' expected.
+src/components/Academics.tsx(72,42): error TS1005: '}' expected.
+src/components/Academics.tsx(72,71): error TS1005: '}' expected.
+src/components/Academics.tsx(72,110): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/Academics.tsx(72,156): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Academics.tsx(74,108): error TS1005: '}' expected.
+src/components/Academics.tsx(74,150): error TS1003: Identifier expected.
+src/components/Academics.tsx(74,151): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Academics.tsx(108,15): error TS17002: Expected corresponding JSX closing tag for 'section'.
+src/components/Academics.tsx(109,12): error TS1005: ';' expected.
+src/components/Academics.tsx(110,9): error TS1128: Declaration or statement expected.
+src/components/Academics.tsx(111,7): error TS1109: Expression expected.
+src/components/Academics.tsx(112,5): error TS1109: Expression expected.
+src/components/Academics.tsx(113,3): error TS1109: Expression expected.
+src/components/Academics.tsx(114,1): error TS1128: Declaration or statement expected.
+src/components/Academics.tsx(115,1): error TS1160: Unterminated template literal.
+src/components/Chatbot.tsx(122,40): error TS1128: Declaration or statement expected.
+src/components/Chatbot.tsx(141,41): error TS1128: Declaration or statement expected.
+src/components/Chatbot.tsx(141,45): error TS1005: ';' expected.
+src/components/Chatbot.tsx(181,45): error TS1005: 'try' expected.
+src/components/Chatbot.tsx(273,13): error TS1005: 'try' expected.
+src/components/Chatbot.tsx(291,45): error TS1005: ',' expected.
+src/components/Chatbot.tsx(291,54): error TS1136: Property assignment expected.
+src/components/Chatbot.tsx(292,15): error TS1005: '...' expected.
+src/components/Chatbot.tsx(292,20): error TS1005: '}' expected.
+src/components/Chatbot.tsx(305,28): error TS1005: ',' expected.
+src/components/Chatbot.tsx(306,14): error TS1109: Expression expected.
+src/components/Chatbot.tsx(307,11): error TS1109: Expression expected.
+src/components/Chatbot.tsx(307,13): error TS17015: Expected corresponding closing tag for JSX fragment.
+src/components/Chatbot.tsx(308,9): error TS1109: Expression expected.
+src/components/Chatbot.tsx(318,61): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Chatbot.tsx(371,48): error TS1005: ';' expected.
+src/components/Chatbot.tsx(372,23): error TS1128: Declaration or statement expected.
+src/components/Chatbot.tsx(372,25): error TS17002: Expected corresponding JSX closing tag for 'div'.
+src/components/Chatbot.tsx(373,21): error TS1005: ')' expected.
+src/components/Chatbot.tsx(374,20): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/Chatbot.tsx(379,13): error TS1005: ')' expected.
+src/components/Chatbot.tsx(386,75): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Chatbot.tsx(403,23): error TS1005: '}' expected.
+src/components/Chatbot.tsx(419,34): error TS1005: ',' expected.
+src/components/Chatbot.tsx(441,82): error TS1005: '}' expected.
+src/components/Chatbot.tsx(448,20): error TS1005: ',' expected.
+src/components/Chatbot.tsx(449,17): error TS1128: Declaration or statement expected.
+src/components/Chatbot.tsx(451,15): error TS1109: Expression expected.
+src/components/Chatbot.tsx(457,33): error TS1005: ',' expected.
+src/components/Chatbot.tsx(459,73): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Chatbot.tsx(462,20): error TS1005: ',' expected.
+src/components/Chatbot.tsx(463,17): error TS1128: Declaration or statement expected.
+src/components/Chatbot.tsx(465,15): error TS1109: Expression expected.
+src/components/Chatbot.tsx(465,16): error TS1128: Declaration or statement expected.
+src/components/Chatbot.tsx(468,14): error TS17008: JSX element 'div' has no corresponding closing tag.
+src/components/Chatbot.tsx(480,33): error TS1005: '}' expected.
+src/components/Chatbot.tsx(480,39): error TS1003: Identifier expected.
+src/components/Chatbot.tsx(480,43): error TS1109: Expression expected.
+src/components/Chatbot.tsx(480,45): error TS1005: ',' expected.
+src/components/Chatbot.tsx(480,54): error TS1351: An identifier or keyword cannot immediately follow a numeric literal.
+src/components/Chatbot.tsx(480,57): error TS1005: ',' expected.
+src/components/Chatbot.tsx(480,61): error TS1005: ',' expected.
+src/components/Chatbot.tsx(480,62): error TS1005: ',' expected.
+src/components/Chatbot.tsx(480,66): error TS1005: ',' expected.
+src/components/Chatbot.tsx(514,40): error TS1005: ',' expected.
+src/components/Chatbot.tsx(514,41): error TS1005: ',' expected.
+src/components/Chatbot.tsx(514,50): error TS1005: ',' expected.
+src/components/Chatbot.tsx(656,1): error TS1005: '</' expected.
+src/components/Chatbot.tsx(656,1): error TS1160: Unterminated template literal.
+src/components/Contact.tsx(89,44): error TS1005: 'try' expected.
+src/components/Contact.tsx(249,14): error TS17008: JSX element 'form' has no corresponding closing tag.
+src/components/Contact.tsx(253,76): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Contact.tsx(270,19): error TS1005: '}' expected.
+src/components/Contact.tsx(288,19): error TS1005: '}' expected.
+src/components/Contact.tsx(305,19): error TS1005: '}' expected.
+src/components/Contact.tsx(322,20): error TS1109: Expression expected.
+src/components/Contact.tsx(332,82): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Contact.tsx(341,31): error TS1005: '}' expected.
+src/components/Contact.tsx(357,25): error TS1128: Declaration or statement expected.
+src/components/Contact.tsx(357,27): error TS17002: Expected corresponding JSX closing tag for 'div'.
+src/components/Contact.tsx(358,23): error TS1005: ')' expected.
+src/components/Contact.tsx(359,21): error TS1005: '}' expected.
+src/components/Contact.tsx(364,22): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/Contact.tsx(376,50): error TS1005: '}' expected.
+src/components/Contact.tsx(386,15): error TS17002: Expected corresponding JSX closing tag for 'div'.
+src/components/Contact.tsx(388,11): error TS17002: Expected corresponding JSX closing tag for 'section'.
+src/components/Contact.tsx(389,7): error TS1005: ')' expected.
+src/components/Contact.tsx(390,5): error TS1109: Expression expected.
+src/components/Contact.tsx(391,3): error TS1109: Expression expected.
+src/components/Courses.tsx(8,36): error TS1005: ',' expected.
+src/components/Courses.tsx(8,63): error TS1109: Expression expected.
+src/components/Courses.tsx(8,64): error TS1109: Expression expected.
+src/components/Courses.tsx(16,39): error TS1005: ',' expected.
+src/components/Courses.tsx(16,69): error TS1109: Expression expected.
+src/components/Courses.tsx(16,70): error TS1109: Expression expected.
+src/components/Courses.tsx(39,13): error TS1003: Identifier expected.
+src/components/Courses.tsx(39,30): error TS1005: '}' expected.
+src/components/Courses.tsx(39,64): error TS1005: '}' expected.
+src/components/Courses.tsx(39,70): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/Courses.tsx(39,177): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Courses.tsx(41,25): error TS1003: Identifier expected.
+src/components/Courses.tsx(41,31): error TS1005: ')' expected.
+src/components/Courses.tsx(41,42): error TS1005: '}' expected.
+src/components/Courses.tsx(41,71): error TS1005: '}' expected.
+src/components/Courses.tsx(41,110): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/Courses.tsx(41,156): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Courses.tsx(43,111): error TS1005: '}' expected.
+src/components/Courses.tsx(43,153): error TS1003: Identifier expected.
+src/components/Courses.tsx(43,154): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Courses.tsx(62,15): error TS17002: Expected corresponding JSX closing tag for 'section'.
+src/components/Courses.tsx(63,12): error TS1005: ';' expected.
+src/components/Courses.tsx(64,9): error TS1128: Declaration or statement expected.
+src/components/Courses.tsx(65,7): error TS1109: Expression expected.
+src/components/Courses.tsx(66,5): error TS1109: Expression expected.
+src/components/Courses.tsx(67,3): error TS1109: Expression expected.
+src/components/Courses.tsx(68,1): error TS1128: Declaration or statement expected.
+src/components/Courses.tsx(69,1): error TS1160: Unterminated template literal.
+src/components/ExitIntentPopup.tsx(28,4): error TS1128: Declaration or statement expected.
+src/components/ExitIntentPopup.tsx(28,8): error TS1005: ';' expected.
+src/components/ExitIntentPopup.tsx(70,72): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/ExitIntentPopup.tsx(89,25): error TS1005: '}' expected.
+src/components/ExitIntentPopup.tsx(111,17): error TS2657: JSX expressions must have one parent element.
+src/components/ExitIntentPopup.tsx(114,48): error TS1005: ',' expected.
+src/components/ExitIntentPopup.tsx(114,57): error TS1136: Property assignment expected.
+src/components/ExitIntentPopup.tsx(114,59): error TS1005: '...' expected.
+src/components/ExitIntentPopup.tsx(114,69): error TS1005: '}' expected.
+src/components/ExitIntentPopup.tsx(114,113): error TS1005: ',' expected.
+src/components/ExitIntentPopup.tsx(115,23): error TS1005: ',' expected.
+src/components/ExitIntentPopup.tsx(116,23): error TS1005: ',' expected.
+src/components/ExitIntentPopup.tsx(117,23): error TS1005: ',' expected.
+src/components/ExitIntentPopup.tsx(118,23): error TS1005: ',' expected.
+src/components/ExitIntentPopup.tsx(119,23): error TS1005: ',' expected.
+src/components/ExitIntentPopup.tsx(120,23): error TS1005: ',' expected.
+src/components/ExitIntentPopup.tsx(123,21): error TS1005: ',' expected.
+src/components/ExitIntentPopup.tsx(123,23): error TS17002: Expected corresponding JSX closing tag for 'div'.
+src/components/ExitIntentPopup.tsx(131,17): error TS1005: ')' expected.
+src/components/ExitIntentPopup.tsx(132,16): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/ExitIntentPopup.tsx(134,11): error TS1005: ')' expected.
+src/components/ExitIntentPopup.tsx(134,13): error TS17015: Expected corresponding closing tag for JSX fragment.
+src/components/ExitIntentPopup.tsx(135,9): error TS1109: Expression expected.
+src/components/ExitIntentPopup.tsx(137,5): error TS1128: Declaration or statement expected.
+src/components/ExitIntentPopup.tsx(137,7): error TS1109: Expression expected.
+src/components/ExitIntentPopup.tsx(138,3): error TS1109: Expression expected.
+src/components/ExitIntentPopup.tsx(139,1): error TS1128: Declaration or statement expected.
+src/components/FeaturedSkill.tsx(114,68): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/FeaturedSkill.tsx(128,76): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/FeaturedSkill.tsx(152,21): error TS1005: '}' expected.
+src/components/FeaturedSkill.tsx(178,49): error TS1005: ')' expected.
+src/components/FeaturedSkill.tsx(178,77): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/FeaturedSkill.tsx(181,28): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/FeaturedSkill.tsx(233,19): error TS1005: '}' expected.
+src/components/FeaturedSkill.tsx(244,62): error TS1005: '}' expected.
+src/components/FeaturedSkill.tsx(248,68): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/FeaturedSkill.tsx(251,42): error TS1005: ')' expected.
+src/components/FeaturedSkill.tsx(251,81): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/FeaturedSkill.tsx(252,18): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/FeaturedSkill.tsx(259,69): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Hero.tsx(91,9): error TS1005: '}' expected.
+src/components/Insights.tsx(252,11): error TS17014: JSX fragment has no corresponding closing tag.
+src/components/Insights.tsx(284,17): error TS1003: Identifier expected.
+src/components/Insights.tsx(284,18): error TS1138: Parameter declaration expected.
+src/components/Insights.tsx(285,43): error TS1005: ';' expected.
+src/components/Insights.tsx(285,48): error TS1434: Unexpected keyword or identifier.
+src/components/Insights.tsx(286,17): error TS1128: Declaration or statement expected.
+src/components/Insights.tsx(286,19): error TS1003: Identifier expected.
+src/components/Insights.tsx(291,16): error TS1381: Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+src/components/Insights.tsx(292,15): error TS17002: Expected corresponding JSX closing tag for 'div'.
+src/components/Insights.tsx(293,13): error TS17002: Expected corresponding JSX closing tag for 'section'.
+src/components/Insights.tsx(297,14): error TS17008: JSX element 'div' has no corresponding closing tag.
+src/components/Insights.tsx(304,20): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Insights.tsx(309,21): error TS1005: '}' expected.
+src/components/Insights.tsx(327,23): error TS1005: '}' expected.
+src/components/Insights.tsx(338,18): error TS17008: JSX element 'div' has no corresponding closing tag.
+src/components/Insights.tsx(340,39): error TS1003: Identifier expected.
+src/components/Insights.tsx(659,1): error TS1005: '</' expected.
+src/components/Insights.tsx(659,1): error TS1160: Unterminated template literal.
+src/components/ResumeModal.tsx(26,15): error TS1005: ',' expected.
+src/components/ResumeModal.tsx(27,10): error TS17008: JSX element 'div' has no corresponding closing tag.
+src/components/ResumeModal.tsx(28,12): error TS17008: JSX element 'div' has no corresponding closing tag.
+src/components/ResumeModal.tsx(284,14): error TS17008: JSX element 'div' has no corresponding closing tag.
+src/components/ResumeModal.tsx(286,74): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/ResumeModal.tsx(289,16): error TS17008: JSX element 'div' has no corresponding closing tag.
+src/components/ResumeModal.tsx(321,1): error TS1005: '</' expected.
+src/components/ResumeModal.tsx(321,1): error TS1160: Unterminated template literal.
+src/components/TermsPopup.tsx(34,15): error TS1005: ',' expected.
+src/components/TermsPopup.tsx(106,18): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/TermsPopup.tsx(111,8): error TS1005: ')' expected.
+src/components/TermsPopup.tsx(113,3): error TS1128: Declaration or statement expected.
+src/components/TermsPopup.tsx(114,1): error TS1128: Declaration or statement expected.

@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Rutvik Dangar | AI App Builder & Marketing Student</title>
+ <meta name="description" content="Portfolio of Rutvik Dangar — BBA Marketing student and AI App Builder from Ahmedabad building at the intersection of Marketing, AI and No-Code." />
+ <!-- Open Graph tags -->
+ <meta property="og:title" content="Rutvik Dangar | AI App Builder & Marketing Student" />
+ <meta property="og:description" content="Portfolio of Rutvik Dangar — BBA Marketing student and AI App Builder from Ahmedabad building at the intersection of Marketing, AI and No-Code." />
+ <meta property="og:type" content="website" />
+ 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+ <link rel="preload" as="image" href="/rutvik_photo.jpg" type="image/jpeg" />
+  <style>
+    /* Prevent initial white screen flashing and align background with the luxury preloader during the initial loads */
+    html, body {
+      background-color: #110022;
+      color: #faf9f6;
+    }
+  </style>
+ </head>
+ <body class="text-charcoal transition-colors duration-300 overflow-x-hidden">
+ <div id="root"></div>
+ <script type="module" src="/src/main.tsx"></script>
+ <script>
+/* ============================================
+   RUTVIK PORTFOLIO — Motion & Interaction JS
+   Pure Vanilla JS | No dependencies
+   ============================================ */
+
+(function() {
+
+  // ── 1. SCROLL REVEAL ENGINE ──────────────────
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+        revealObserver.unobserve(entry.target); // animate once
+      }
+    });
+  }, {
+    threshold: 0.1,
+    rootMargin: '0px 0px -48px 0px'
+  });
+
+  // Observe all reveal elements
+  function initReveal() {
+    document.querySelectorAll(
+      '.reveal, .reveal-left, .reveal-scale, .reveal-grid, .reveal-section'
+    ).forEach(el => revealObserver.observe(el));
+  }
+
+
+  // ── 2. NAVBAR SCROLL ─────────────────────────
+  function initNavbar() {
+    const nav = document.querySelector('nav, header, [class*="navbar"], [class*="nav-bar"]');
+    if (!nav) return;
+
+    const onScroll = () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll(); // run once on load
+  }
+
+
+  // ── 3. BACK TO TOP (Removed to avoid redundant and unstyled elements) ───────────
+
+
+  // ── 4. SMOOTH ANCHOR LINKS ───────────────────
+  function initSmoothAnchors() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', (e) => {
+        const target = document.querySelector(anchor.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  }
+
+
+  // ── 5. ACTIVE NAV LINK (Scroll Spy) ──────────
+  function initScrollSpy() {
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('nav a[href^="#"], header a[href^="#"]');
+    if (!sections.length || !navLinks.length) return;
+
+    const spy = () => {
+      let current = '';
+      sections.forEach(section => {
+        if (window.scrollY >= section.offsetTop - 100) {
+          current = section.id;
+        }
+      });
+      navLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        link.classList.toggle('active', href === `#${current}`);
+      });
+    };
+
+    window.addEventListener('scroll', spy, { passive: true });
+    spy();
+  }
+
+
+  // ── 6. INIT ALL ──────────────────────────────
+  // Wait for DOM ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      initReveal();
+      initNavbar();
+      initSmoothAnchors();
+      initScrollSpy();
+    });
+  } else {
+    initReveal();
+    initNavbar();
+    initSmoothAnchors();
+    initScrollSpy();
+  }
+
+  // For React/Next.js — re-init after route changes if needed
+  // Call window.__initPortfolioMotion() from your page component's useEffect
+  window.__initPortfolioMotion = () => {
+    setTimeout(initReveal, 100);
+  };
+
+})();
+</script>
+ </body>
+</html>
+

@@ -1,0 +1,25 @@
+
+> react-example@0.0.0 lint
+> tsc --noEmit
+
+src/components/Chatbot.tsx(496,79): error TS1382: Unexpected token. Did you mean `{'>'}` or `&gt;`?
+src/components/Chatbot.tsx(543,27): error TS1005: '}' expected.
+src/components/Chatbot.tsx(543,79): error TS1109: Expression expected.
+src/components/Chatbot.tsx(544,23): error TS1109: Expression expected.
+src/components/Chatbot.tsx(570,21): error TS1005: '}' expected.
+src/components/Chatbot.tsx(586,27): error TS1005: '}' expected.
+src/components/Chatbot.tsx(609,17): error TS2657: JSX expressions must have one parent element.
+src/components/Chatbot.tsx(615,21): error TS1005: '}' expected.
+src/components/Chatbot.tsx(631,19): error TS1005: '}' expected.
+src/components/Chatbot.tsx(638,18): error TS1109: Expression expected.
+src/components/Chatbot.tsx(648,15): error TS1128: Declaration or statement expected.
+src/components/Chatbot.tsx(648,17): error TS17002: Expected corresponding JSX closing tag for 'div'.
+src/components/Chatbot.tsx(655,11): error TS1005: ')' expected.
+src/components/Chatbot.tsx(655,13): error TS17015: Expected corresponding closing tag for JSX fragment.
+src/components/Chatbot.tsx(656,9): error TS1109: Expression expected.
+src/components/Chatbot.tsx(658,5): error TS1128: Declaration or statement expected.
+src/components/Chatbot.tsx(658,7): error TS1109: Expression expected.
+src/components/Chatbot.tsx(659,3): error TS1109: Expression expected.
+src/components/Chatbot.tsx(660,1): error TS1128: Declaration or statement expected.
+src/components/Contact.tsx(398,1): error TS1005: '}' expected.
+src/components/Insights.tsx(656,1): error TS1005: '}' expected.

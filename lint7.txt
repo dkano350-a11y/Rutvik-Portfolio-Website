@@ -1,0 +1,7 @@
+
+> react-example@0.0.0 lint
+> tsc --noEmit
+
+src/components/Chatbot.tsx(571,21): error TS1005: '}' expected.
+src/components/Contact.tsx(401,1): error TS1005: '}' expected.
+src/components/Insights.tsx(656,1): error TS1005: '}' expected.
